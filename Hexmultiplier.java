@@ -130,10 +130,10 @@ public class Hexmultiplier {
         for (int i = 0; i < 16; i++){
             System.out.print(multdec4[i]+" ");
         }
-        //have to try to add zeros at the end
+        //Zeros added to the last
     }
 
     public static void main(String args[]){
-        HexMulti("cdbe","1234");
+        HexMulti("cebe","1234");
     }
 }
