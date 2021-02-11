@@ -51,20 +51,20 @@ public class Hexmultiplier {
                             multdec1[j-1] = cr;
                         }
                         else if(md == 2){
-                            multdec2[j] = v;
-                            multdec2[j-1] = cr;
+                            multdec2[j-2] = v;
+                            multdec2[j-1-2] = cr;
                         }
                         else if(md == 3){
-                            multdec3[j] = v;
-                            multdec3[j-1] = cr;
+                            multdec3[j-3] = v;
+                            multdec3[j-1-3] = cr;
                         }
                         else if(md == 4){
                             multdec4[j] = v;
-                            multdec4[j-1] = cr;
+                            multdec4[j-1-4] = cr;
                         }
                         else if(md == 5){
                             multdec5[j] = v;
-                            multdec5[j-1] = cr;
+                            multdec5[j-1-5] = cr;
                         }
                     }
                     else{
@@ -72,16 +72,16 @@ public class Hexmultiplier {
                             multdec1[j] = v;
                         }
                         else if(md == 2){
-                            multdec2[j] = v;
+                            multdec2[j-2] = v;
                         }
                         else if(md == 3){
-                            multdec3[j] = v;
+                            multdec3[j-3] = v;
                         }
                         else if(md == 4){
-                            multdec4[j] = v;
+                            multdec4[j-4] = v;
                         }
                         else if(md == 5){
-                            multdec5[j] = v;
+                            multdec5[j-5] = v;
                         }
                     }
                 }
@@ -90,16 +90,16 @@ public class Hexmultiplier {
                         multdec1[j] = v;
                     }
                     else if(md == 2){
-                        multdec2[j] = v;
+                        multdec2[j-2] = v;
                     }
                     else if(md == 3){
-                        multdec3[j] = v;
+                        multdec3[j-3] = v;
                     }
                     else if(md == 4){
-                        multdec4[j] = v;
+                        multdec4[j-4] = v;
                     }
                     else if(md == 5){
-                        multdec5[j] = v;
+                        multdec5[j-5] = v;
                     }
                 }
             }
